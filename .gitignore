@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Editor/OS junk
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local secrets
+auth.json
+settings.json
+extensions/**/auth.json
+.env
+.env.*
+
+# Local runtime/history
+sessions/
