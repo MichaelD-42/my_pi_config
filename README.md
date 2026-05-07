@@ -57,11 +57,16 @@ $EDITOR ~/.pi/agent/settings.json
 | Extension | Purpose |
 |---|---|
 | `ask-user-question` | Adds structured one-question clarification prompts. |
-| `bash-guard` | Adds safer guardrails around shell command execution. |
+| `auto-fix` | Runs end-of-turn formatters/linters (eslint, black, prettier) on touched files. |
+| `btw` | Adds non-blocking side-question support via `/btw` while the main task continues. |
 | `context` | Improves context gathering and packaging behavior. |
+| `context-guard` | Reduces context waste by auto-limiting/deduplicating reads and bounding raw `rg` output. |
 | `custom-header` | Adds custom header formatting to outputs/UI. |
 | `google-image-search` | Enables Google Image search from the agent. |
 | `memory` | Adds memory-style storage/retrieval behavior. |
+| `multi-edit` | Replaces `edit` with batch and patch support plus preflight validation. |
+| `sentinel` | Adds content-aware security guards for risky read/write/bash operations. |
+| `status-line` | Adds configurable basic/expert footer status UI with context and usage indicators. |
 | `subagents` | Enables delegated subagent execution workflows. |
 | `video-extract` | Extracts frames/content from local or YouTube videos. |
 | `web-fetch` | Fetches URLs and converts readable content to markdown. |
